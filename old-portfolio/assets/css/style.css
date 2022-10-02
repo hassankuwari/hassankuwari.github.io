@@ -6,12 +6,30 @@
     margin: 0;
 }
 
+:root{
+    --primary-color : #000;
+}
+
+.hamburger img{
+    width: 45px;
+    height: 45px;
+}
 
 .sidebar {
     width: 434px;
     height: 100vh;
-    background: rgb(193, 176, 176);
+    background: var(--primary-color);
     font-family: 'Kanit', sans-serif;
+    position: relative;
+
+}
+
+
+.cross img{
+    width: 45px;
+    height: 45px;
+position: absolute;
+right: 0;
 }
 
 

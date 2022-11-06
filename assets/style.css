@@ -1,51 +1,172 @@
+body{
+    background-color: #343434 !important;
+    overflow: hidden;
+}
 .container {
-    background-color: black;
+ 
+    border-radius: 25px;
+    margin-top: 20px;
+    position: relative;
 }
 
-
-
-
-.square-content,
-.circle-shape,
-.d-shape,
-.reverse-d-shape {
+.bg-circle1{
     width: 200px;
     height: 200px;
-    border: solid;
-    background-color: blue;
+    border-radius: 50%;
+    background-color: #54b16e;
+    position: absolute;
+    left: -131px;
+    top: -53px;
+    z-index: 100;
 }
 
+.bg-circle2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    position: absolute;
+    left: -61px;
+    top: 489px;
+    z-index: 100;
+}
+
+.bg-circle3{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #d48726;
+    position: absolute;
+    right: -162px;
+    top: 199px;
+    z-index: 100;
+}
+
+.main-container {
+    background-color: #17171791;
+    position: relative;
+    z-index: 200;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+}
+
+.main-container .upper-part {
+    padding-top: 100px;
+}
+
+.main-container .lower-part {
+    padding: 100px 0;
+}
+
+.square-shape,
+.circle-shape,
+.d-shape,
+.reverse-d-shape,
+.reverse-u-shape,
+.leaf-shape {
+    width: 200px;
+    height: 200px;
+}
+
+.square-shape {
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(to top, #fee1de, #f7d6d9, #eeccd5, #e3c2d3, #d5b9d1, #bda5bc, #a692a7, #907f93, #6d5d6a, #493e45, #282224, #000000);
+}
 
 .square-content h2 {
     text-align: center;
     margin: 70px 5px;
 }
 
+.shape{
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+
+}
+
+.shape h2{
+    transition: 0.5s;
+}
+.shape:hover h2{
+transform: translateY(-30px);
+}
+
+.shape button{
+    position: absolute;
+    bottom: -38px;
+    right: 48px;
+    transition: 0.5s;
+}
+
+.shape:hover button{
+    bottom: 30px;
+}
 
 .circle-shape {
     border-radius: 50%;
     display: flex;
     align-items: center;
-    background-color: bisque;
+    background-image: radial-gradient(circle, #2f8f9d, #3194a2, #339aa7, #369fab, #38a5b0, #3797aa, #3b88a2, #417a97, #465672, #3c3749, #251e24, #000000);
 }
 
-
-.resume h2 {
+.circle-content h2 {
     margin-left: 25px;
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
 }
-
 
 .d-shape {
-    background-color: aqua;
+    background-color: #d4b460;
     border-top-right-radius: 60%;
     display: flex;
     align-items: center;
 }
 
+.d-content h2 span {
+    display: flex;
+    align-items: center;
+    margin-left: 51px;
+}
 
 .reverse-d-shape {
-    background-color: green;
     border-bottom-left-radius: 60%;
     display: flex;
     align-items: center;
+    background-image: radial-gradient(circle, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #e7e7e7, #d0d0d0, #b9b9b9, #878787, #585858, #2e2e2e, #000000);
 }
+
+.reverse-d-content h2 {
+    margin-left: 35px;
+}
+
+.reverse-u-shape {
+    background-color: #eea8ac;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.reverse-u-content {
+    margin-left: 45px;
+}
+
+.leaf-shape {
+    /* background-color: #54d2c9; */
+    background-image: linear-gradient(to right bottom, #14060e, #241722, #342538, #403450, #47466b, #4f5b80, #577095, #6086a8, #7ca3b9, #9fbeca, #c6dade, #eff5f5);
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.leaf-shape-content {
+    margin-left: 40px;
+}
+
+
+

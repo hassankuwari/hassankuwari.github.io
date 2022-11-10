@@ -224,5 +224,66 @@
 }
 
 
+                    /* cv css */
 
+
+
+.cv-container{
+    border: 2px solid;
+}
+
+.cv-name h3{
+font-weight: 700;
+}
+
+.cv-name p{
+    margin: 0;
+}
+
+.carreer-objective p{
+    margin: 0;
+}
+
+
+.level-1 p{
+    margin: 0;
+margin-left: 70px;
+}
+
+.projects li {
+    font-weight: 600;
+}
+
+.date-birth{
+    margin-left: 180px;
+    
+}
+
+.father-name{
+    margin-left: 174px;
+}
+
+.address {
+    margin-left: 132px;
+}
+
+.temp-address {
+    margin-left: 133px;
+}
+
+.mar-stat{
+margin-left: 175px;
+}
+
+.nationality{
+margin-left: 197px;
+}
+
+.languages{
+    margin-left: 145px;
+}
+
+.details div {
+    margin-bottom: 8px;
+}
 

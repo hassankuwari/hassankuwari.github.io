@@ -159,6 +159,8 @@ li {
 .para-year h3 {
   color: var(--primary-text-color);
   font-size: 10px;
+
+
 }
 
 
@@ -247,5 +249,3 @@ button {
 .project-list :nth-child(-n+5) {
   margin-bottom: 10px;
 }
-
-

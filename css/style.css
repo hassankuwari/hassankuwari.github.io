@@ -2419,11 +2419,14 @@ header.header-light .logo-2 {
 .post-image{
     position: relative;
     overflow: hidden;
+    height: 200px;
 }
 
 .post-image img {
     width: 100%;
+    height: 100%;
     margin-bottom: 0px;
+object-fit: cover;
 }
 
 img.grayscale{

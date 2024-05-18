@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primary-color : #000;
+}
+
+.hamburger img{
+    width: 45px;
+    height: 45px;
+}
+
+.sidebar {
+    width: 434px;
+    height: 100vh;
+    background: var(--primary-color);
+    font-family: 'Kanit', sans-serif;
+    position: relative;
+
+}
+
+
+.cross img{
+    width: 45px;
+    height: 45px;
+position: absolute;
+right: 0;
+}
+
+
+.sidebar nav {
+    padding: 45px;
+}
+
+
+.sidebar nav li {
+    padding: 33px 0;
+    list-style: none;
+    font-size: 30px;
+}
+
+
+.sidebar nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+
+.container {
+    display: flex;
+}
+
+
+.infoContainer {
+    /* background-color: blue; */
+    width: 83vw;
+    height: 58vh;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.devInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.hello {
+    font-family: 'Kanit', sans-serif;
+    font-size: 65px;
+    font-style: none;
+}
+
+
+.name {
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+
+.about {
+    font-size: 45px;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+
+.moreabout {
+    font-family: 'Kanit', sans-serif;
+    margin-top: 23px;
+    font-size: 22px;
+}
+
+
+.buttons {
+    margin: 34px;
+}
+
+
+.buttons button {
+    padding: 9px 24px;
+    margin: 0 3px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devPic img {
+    width: 250px;
+    height: 58vh;
+}
+
+
+.contactform {
+    font-family: 'Kanit', sans-serif;
+    padding: 144px 34px 0 34px;
+}
+
+
+.contactform h1 {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+
+.contactform  div {
+    padding: 27px 0;
+}

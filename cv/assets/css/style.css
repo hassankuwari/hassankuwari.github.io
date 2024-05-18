@@ -1,0 +1,252 @@
+:root {
+  --primary-text-color: #4a4a4a;
+  --secondary-text-color: #002878;
+}
+
+@font-face {
+  font-family: calibri;
+  src: url(../calibri-font-family/calibri-regular.ttf);
+  font-display: swap;
+}
+
+body {
+  font-family: calibri;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: var(--primary-text-color);
+}
+
+a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+/*  main container  */
+
+.main-container {
+  width: 850px;
+  margin: 0 auto;
+}
+
+.content-container {
+  padding: 10px 25px 20px;
+}
+
+.image {
+  background: url(../images//myBgImage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 40px; */
+  position: relative;
+  z-index: 1;
+}
+
+.header-para h2 {
+  margin-bottom: 0px;
+
+  color: var(--secondary-text-color);
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.details {
+  display: flex;
+  list-style: none;
+  margin-top: 5px;
+  padding: 0;
+}
+
+i {
+  color: var(--primary-text-color);
+  font-size: 13px;
+}
+
+li {
+  color: var(--primary-text-color);
+  padding-left: 7px;
+  padding-right: 15px;
+  font-size: 13px;
+
+}
+
+/* Sub Container */
+
+.sub-container {
+  display: flex;
+}
+
+/* Left Container Design*/
+
+.left-container {
+
+  width: 490px;
+  /* background-color: rgb(155, 157, 157); */
+}
+
+.para h3 {
+  margin-top: 16px;
+  font-size: 12px;
+  color: var(--primary-text-color);
+
+}
+
+.image::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff99;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.junior-txt h2 {
+
+  color: var(--secondary-text-color);
+  font-size: 19px;
+  font-weight: 100;
+  margin: 0px 40px 4px 0px;
+}
+
+.ser-para {
+  font-size: 15px;
+  color: rgb(244, 146, 0);
+  padding: 0px 14px 0px 0px;
+}
+
+.orange-color {
+  color: rgb(244, 146, 0);
+}
+
+.junior-sub-para {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.para-1 {
+  font-size: 13px;
+  color: var(--primary-text-color);
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.junior-ul {
+
+  color: var(--primary-text-color);
+  padding-left: 21px;
+  padding-right: 20px;
+  font-size: 13px;
+  margin-top: -5px;
+}
+
+.junior-ul li {
+  padding-left: 0;
+}
+
+.ser-para-1 {
+  font-size: 13px;
+  color: orange;
+  list-style: none;
+  padding: 0;
+}
+
+.para-year h3 {
+  color: var(--primary-text-color);
+  font-size: 10px;
+}
+
+.project span{
+  font-weight: bold;
+}
+
+/* Right Container Design*/
+
+.right-container {
+  height: 80vh;
+  width: 270px;
+  margin-left: 38px;
+  padding-top: 17px;
+  /* background-color: rgb(255, 255, 0); */
+}
+
+.award {
+  display: flex;
+}
+
+.award-txt h2 {
+  /* margin-top: 30px; */
+  font-size: 10px;
+  color: var(--primary-text-color);
+
+}
+
+.winner-txt h2 {
+  font-size: 14px;
+  margin: 0px 10px;
+
+  color: var(--secondary-text-color);
+}
+
+.win-para {
+  color: var(--primary-text-color);
+  font-size: 13px;
+
+  margin-bottom: 15px;
+}
+
+button {
+  height: 25px;
+  border: 1px solid #cdcdcd;
+  margin-right: 8px;
+  margin-top: 10px;
+  background-color: transparent;
+  color: var(--secondary-text-color);
+
+}
+
+
+.front-head {
+  color: var(--secondary-text-color);
+
+  font-size: 19px;
+  font-weight: 100;
+  margin: 30px 40px 4px 0px;
+}
+
+
+.travel {
+  display: flex;
+  color: var(--secondary-text-color);
+  margin: 10px 0;
+}
+
+.travel-txt h2 {
+  font-size: 14px;
+  margin: 0px 10px;
+
+  font-size: 14px;
+  margin: 0px 20px;
+}
+
+.qulification {
+  display: grid;
+  list-style: none;
+  padding: 0;
+  grid-template-columns: 25% 40% auto auto;
+}
+
+.awardproject {
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.project-list :nth-child(-n+5) {
+  margin-bottom: 10px;
+}

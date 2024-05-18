@@ -1,0 +1,289 @@
+.main-body {
+    background-color: #343434 !important;
+    overflow: hidden;
+}
+
+.container {
+
+    border-radius: 25px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.bg-circle1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #54b16e;
+    position: absolute;
+    left: -131px;
+    top: -53px;
+    z-index: 100;
+}
+
+.bg-circle2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    position: absolute;
+    left: -61px;
+    top: 489px;
+    z-index: 100;
+}
+
+.bg-circle3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #d48726;
+    position: absolute;
+    right: -162px;
+    top: 199px;
+    z-index: 100;
+}
+
+.main-container {
+    background-color: #17171791;
+    position: relative;
+    z-index: 200;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+}
+
+.main-container .upper-part {
+    padding-top: 100px;
+}
+
+.main-container .lower-part {
+    padding: 100px 0;
+}
+
+.main-container span {
+    color: #343434;
+    font-style: italic;
+}
+
+.bio-content {
+    padding-top: 20px;
+}
+
+.name {
+    color: #3194a2;
+}
+
+.name h1 {
+    padding-top: 25px;
+    font-style: bold;
+}
+
+.name span {
+    color: #343434;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.profile-img {
+    padding: 15px;
+}
+
+.profile-img span{
+    color: #343434;
+    font-style: italic;
+}
+
+.profile-img .img-container {
+    border-radius: 50%;
+    overflow: hidden;
+    border-bottom-right-radius: 0;
+    background-color:#343434;
+}
+
+
+.profile-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.description-content h5 {
+    color: #54b16e;
+}
+
+.description-content span {
+    color: #343434;
+    font-style: italic;
+}
+
+.description span {
+    color: #343434;
+    font-style: italic;
+}
+
+.lang-container {
+    color: #ffffff;
+
+}
+
+.tech-logo {
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    background: #54b16e;
+    display: inline-block;
+    margin: 8px 8px;
+}
+
+.tech-logo img {
+    width: 35px;
+
+}
+
+.circle-shape,
+.d-shape,
+.reverse-d-shape,
+.reverse-u-shape {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.shape {
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+
+}
+
+.shape h2 {
+    transition: 0.5s;
+}
+
+.shape:hover h2 {
+    transform: translateY(-30px);
+}
+
+.shape button {
+    position: absolute;
+    bottom: -38px;
+    right: 48px;
+    transition: 0.5s;
+}
+
+.shape:hover button {
+    bottom: 30px;
+}
+
+.circle-shape {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background-image: radial-gradient(circle, #2f8f9d, #3194a2, #339aa7, #369fab, #38a5b0, #3797aa, #3b88a2, #417a97, #465672, #3c3749, #251e24, #000000);
+}
+
+.circle-content h2 {
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.d-shape {
+    background-color: #d4b460;
+    border-top-right-radius: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.d-content h2 span {
+    display: flex;
+    align-items: center;
+    margin-left: 51px;
+}
+
+.reverse-d-shape {
+    border-bottom-left-radius: 60%;
+    display: flex;
+    align-items: center;
+    background-image: radial-gradient(circle, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #e7e7e7, #d0d0d0, #b9b9b9, #878787, #585858, #2e2e2e, #000000);
+}
+
+.reverse-d-content h2 {
+    margin-left: 35px;
+}
+
+.reverse-u-shape {
+    background-color: #eea8ac;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.reverse-u-content {
+    margin-left: 45px;
+}
+
+
+                    /* cv css */
+
+
+
+.cv-container{
+    border: 2px solid;
+}
+
+.cv-name h3{
+font-weight: 700;
+}
+
+.cv-name p{
+    margin: 0;
+}
+
+.carreer-objective p{
+    margin: 0;
+}
+
+
+.level-1 p{
+    margin: 0;
+margin-left: 70px;
+}
+
+.projects li {
+    font-weight: 600;
+}
+
+.date-birth{
+    margin-left: 180px;
+    
+}
+
+.father-name{
+    margin-left: 174px;
+}
+
+.address {
+    margin-left: 132px;
+}
+
+.temp-address {
+    margin-left: 133px;
+}
+
+.mar-stat{
+margin-left: 175px;
+}
+
+.nationality{
+margin-left: 197px;
+}
+
+.languages{
+    margin-left: 145px;
+}
+
+.details div {
+    margin-bottom: 8px;
+}
+
